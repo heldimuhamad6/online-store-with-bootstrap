@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.navbar ul {
+	text-transform: uppercase;
+}
+
+.nav-item {
+	margin-right: 20px;
+}
+
+.nav-link.active{
+	color:yellow !important;
+	font-weight: 600;
+}
+
+.nav-link span {
+	color:yellow !important;
+	font-weight: 600;
+}
+.carousel{
+	background-color: black;
+	height: 350px;
+	padding-top: 80px;
+	margin-bottom: 20px;
+}
+
+.jumbotron h1 {
+	color:navy;
+	font-weight: 600;
+}
+.jumbotron p {
+	color:grey;
+}
